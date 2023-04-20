@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f1f1f6;
+}
+
+/* Header part */
+header{
+    background-color: var(--primary-color);
+    height: 56px;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-container .logo {
+    display: flex;
+    min-width: 137px;
+    justify-content: flex-end;
+}
+
+.nav-container .logo img {
+    width: 75px;
+}
+
+.nav-container .logo1{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-container .logo1 .exp{
+    font-size: 10px;
+    font-style: italic;
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+
+.nav-container .search-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.nav-container .search-bar .searchbar-container {
+    width: 520px;
+    height: 30px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    display: flex;
+}
+
+.nav-container .search-bar .searchbar-container .search-box {
+    width: calc(100% - 32px);
+    padding: 16px;
+    border-radius: 2px 0 0 2px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+
+.nav-container .search-bar .searchbar-container .search {
+    width: 36px;
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+.nav-container .login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.nav-container .login button {
+    width: 122px;
+    padding: 5px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+    background-color: white;
+    border: none;
+    box-shadow: 5px 5px;
+    cursor: pointer;
+}
+
+.nav-container .become-seller,
+.nav-container .more,
+.nav-container .cart {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-container .more svg {
+    margin-left: 8px;
+    rotate: -90deg;
+}
+
+.nav-container .cart svg {
+    margin-right:  8px;
+}
