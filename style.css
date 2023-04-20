@@ -127,3 +127,36 @@ header{
 .nav-container .cart svg {
     margin-right:  8px;
 }
+
+/* # == Section-1 == # */
+.section-1{
+    width: 100%;
+    height: 112px;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+
+.section-1 .sec-container{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-1 .sec-container .item-1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.section-1 .sec-container .item-1 img {
+    height: 60px;
+    width: 60px;
+}
