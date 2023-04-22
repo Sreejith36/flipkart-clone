@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: Roboto,Arial,sans-serif;
     background-color: #f1f1f6;
 }
 
@@ -22,7 +22,11 @@ header{
     height: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
+
+
+
 
 .nav-container .logo {
     display: flex;
@@ -47,6 +51,12 @@ header{
     text-decoration: none;
     display: flex;
     color: white;
+}
+
+.become-seller,
+.cart,
+.more {
+    cursor: pointer;
 }
 
 
@@ -180,3 +190,204 @@ header{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* # == Section-4 == # */
+.sec4-container {
+    height: 100%;
+    margin-top: 8px;
+    height: 360px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec4-container .offers {
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90&quot");
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+    width: 230px;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 75px;
+    
+}
+
+.sec4-container .offers .offers-viewall h2 {
+    word-wrap: break-word;
+    font-size: 30px;
+    line-height: 1.38;
+    font-weight: 400;
+}
+
+.sec4-container .offers .offers-viewall button {
+    width: 100px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sec4-container .list {
+    height: 100%;
+    width: calc(100% - 230px);
+    display: flex;
+    overflow-x: auto;
+    cursor: pointer;
+}
+
+.sec4-container .list .item {
+    width: 232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec4-container .list .item .pic {
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+.sec4-container .list .item .pic img {
+    max-width: 200px;
+    max-height: 200px;
+    /* height: 140px; */
+}
+
+.sec4-container .list .item img:hover{
+    transform: scale(1.04);
+}
+
+.sec4-container .list .item .head {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.sec4-container .list .item .price {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+}
+
+.sec4-container .list .item .explore {
+    opacity: 0.6;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* # == Section-5 == # */
+.sec5-container {
+    height: 100%;
+    margin-top: 8px;
+    height: 360px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec5-container .offers {
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90");
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+    width: 230px;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 75px;
+    
+}
+
+.sec5-container .offers .offers-viewall h2 {
+    word-wrap: break-word;
+    font-size: 30px;
+    line-height: 1.38;
+    font-weight: 400;
+}
+
+.sec5-container .offers .offers-viewall button {
+    width: 100px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sec5-container .list {
+    height: 100%;
+    width: calc(100% - 230px);
+    display: flex;
+    overflow-x: auto;
+    cursor: pointer;
+}
+
+.sec5-container .list .item {
+    width: 232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec5-container .list .item .pic {
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+.sec5-container .list .item .pic img {
+    max-width: 200px;
+    max-height: 200px;
+    /* height: 140px; */
+}
+
+.sec5-container .list .item img:hover{
+    transform: scale(1.04);
+}
+
+.sec5-container .list .item .head {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.sec5-container .list .item .price {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+}
+
+.sec5-container .list .item .explore {
+    opacity: 0.6;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* # == Section-5 == # */
+
+
+
