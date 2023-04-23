@@ -482,6 +482,40 @@ header{
     font-weight: 500;
 }
 
+/* # == Footer Section == # */
+footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #172337;
+    border-top: 1px solid #454d5e;
+}
+
+.footer-bar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a,
+footer span {
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.footer-bar .payment-icons {
+    display: flex;
+}
+.footer-bar .payment-icons i {
+    font-size: 20px;
+    color: white;
+
+}
+
+.footer-bar .payment-icons img {
+    height: 20px;
+    margin-left: 5px;
+}
+
 
 
 
